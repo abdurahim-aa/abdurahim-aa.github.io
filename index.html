@@ -1,159 +1,103 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>My Portfolio</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f7f7f7;
-      color: #333;
-    }
-    header {
-      background-color: #333;
-      color: white;
-      padding: 1rem;
-    }
-    nav {
-      display: flex;
-      justify-content: center;
-      gap: 2rem;
-    }
-    nav a {
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    nav a:hover {
-      text-decoration: underline;
-    }
-    .branding {
-      text-align: center;
-      padding: 4rem 2rem;
-      background-color: #e0e0e0;
-    }
-    .branding h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
-    .branding p {
-      font-size: 1.2rem;
-      color: #555;
-    }
-    .social-links {
-      margin-top: 1rem;
-    }
-    .social-links a {
-      margin: 0 0.5rem;
-      text-decoration: none;
-      color: #333;
-      font-size: 1.2rem;
-    }
-    main {
-      padding: 2rem;
-    }
-    section {
-      margin-bottom: 2rem;
-    }
-    section h2 {
-      border-bottom: 2px solid #ccc;
-      padding-bottom: 0.5rem;
-      margin-bottom: 1rem;
-    }
-    .entry {
-      margin-bottom: 1.5rem;
-    }
-    .entry h3 {
-      margin: 0;
-      font-size: 1.1rem;
-    }
-    .entry span {
-      display: block;
-      font-size: 0.95rem;
-      color: #555;
-      margin-bottom: 0.5rem;
-    }
-    .entry ul {
-      padding-left: 1.2rem;
-      margin: 0;
-    }
-  </style>
-</head>
-<body>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f8;
+    color: #2c3e50;
+  }
 
-  <header>
-    <nav>
-      <a href="#work-history">Work History</a>
-      <a href="#education">Education</a>
-      <a href="#volunteer-work">Volunteer Work</a>
-    </nav>
-  </header>
+  header {
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 1rem;
+  }
 
-  <div class="branding">
-    <h1>Abdurahim Alasad</h1>
-    <p>I AM BANNED FROM EVERY CHUCK-E-CHEESE IN THE DFW AREA</p>
-    <div class="social-links">
-      <a href="https://linkedin.com/in/abdurahim-abdul-alasad" target="_blank">LinkedIn</a>
-    </div>
-  </div>
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
 
-  <main>
-    <section id="work-history">
-      <h2>Work History</h2>
+  nav a {
+    color: #f1c40f;
+    text-decoration: none;
+    font-weight: bold;
+  }
 
-      <div class="entry">
-        <h3>VastMed | Grand Prairie, TX</h3>
-        <span>Operations Manager — Dec 2019 - Apr 2023</span>
-        <ul>
-          <li>Designed and implemented daily warehouse operations, including shipping routines and inventory management.</li>
-          <li>Introduced Odoo for inventory control, reducing shipping time by 10% and increasing turnover.</li>
-          <li>Managed shipping/receiving and coordinated with upper management for timely large-scale projects.</li>
-          <li>Enhanced website UX using Magento; added product images and descriptions improving user approval by 20%.</li>
-          <li>Generated monthly reports for forecasting using inventory tools.</li>
-        </ul>
-      </div>
+  nav a:hover {
+    text-decoration: underline;
+  }
 
-      <div class="entry">
-        <h3>AW Designs | Arlington, TX</h3>
-        <span>Assistant Operations — Sep 2010 - Nov 2015</span>
-        <ul>
-          <li>Completed full-cycle construction projects (plumbing, HVAC, concrete, roofing, etc.).</li>
-          <li>Led a 5-person team based on individual specialties.</li>
-          <li>Maintained tools and ensured all equipment was ready post-projects.</li>
-        </ul>
-      </div>
-    </section>
+  .branding {
+    text-align: center;
+    padding: 4rem 2rem;
+    background-color: #ffffff;
+    border-bottom: 4px solid #f1c40f;
+  }
 
-    <section id="education">
-      <h2>Education</h2>
+  .branding h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #2c3e50;
+  }
 
-      <div class="entry">
-        <h3>The University of Texas at Arlington | Arlington, TX</h3>
-        <span>BBA in Supply Chain Management — May 2024</span>
-      </div>
+  .branding p {
+    font-size: 1.2rem;
+    color: #555;
+  }
 
-      <div class="entry">
-        <h3>Tarrant County Community College | Arlington, TX</h3>
-        <span>Associate of Arts in Business — June 2019</span>
-      </div>
-    </section>
+  .social-links {
+    margin-top: 1rem;
+  }
 
-    <section id="volunteer-work">
-      <h2>Volunteer Work</h2>
+  .social-links a {
+    margin: 0 0.5rem;
+    text-decoration: none;
+    color: #2c3e50;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
 
-      <div class="entry">
-        <h3>Feed the Hungry Program – ISAT | Arlington, TX</h3>
-        <span>Community Youth Mentor — May 2010 - May 2013</span>
-        <ul>
-          <li>Organized youth meetings for underprivileged children.</li>
-          <li>Helped set up community picnics, offering work experience to young participants.</li>
-        </ul>
-      </div>
-    </section>
-  </main>
+  main {
+    padding: 2rem;
+    background-color: #ffffff;
+  }
 
-</body>
-</html>
+  section {
+    margin-bottom: 2rem;
+  }
+
+  section h2 {
+    border-bottom: 2px solid #f1c40f;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+  }
+
+  .entry {
+    margin-bottom: 1.5rem;
+  }
+
+  .entry h3 {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #2c3e50;
+  }
+
+  .entry span {
+    display: block;
+    font-size: 0.95rem;
+    color: #7f8c8d;
+    margin-bottom: 0.5rem;
+  }
+
+  .entry ul {
+    padding-left: 1.2rem;
+    margin: 0;
+  }
+
+  .entry ul li {
+    margin-bottom: 0.5rem;
+  }
+</style>
